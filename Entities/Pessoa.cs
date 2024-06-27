@@ -7,8 +7,8 @@ namespace Faculdade.Entities
     {
         public string Nome { get; set; }
         public DateTime DataNascimento { get; set; }
-        public Sexo Sexo { get; set; }
-        public EstadoCivil EstadoCivil { get; set; }
-        public string CPF { get; set; }
+        public Sexo? Sexo { get; set; }
+        public EstadoCivil? EstadoCivil { get; set; }
+        public CorOuRaca? CorOuRaca { get; set; }
     }
 }
